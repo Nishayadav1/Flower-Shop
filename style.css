@@ -12,8 +12,8 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
-    scroll-padding-top: 6rem;
-    overflow-x: hidden;
+    scroll-padding-top: 6rem; 
+    overflow-x:hidden; 
 }
 section{
     padding:2rem 9% ;
@@ -220,12 +220,9 @@ header .fa-bars{
 }
 
  .products .box-container{
-    display:grid;
-    justify-content: space-around;
-    margin-left:8rem;
-    grid-template-columns:repeat(auto-fit,minmax(40rem,1fr));
+    display:flex;
     gap: 5rem 5rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .products .box-container .box{
@@ -282,9 +279,6 @@ header .fa-bars{
     font-size: 2.2rem;
     padding: 0 1rem ;
 }
-
-
-
 
  .review .box-container{
     display: flex;
@@ -491,8 +485,6 @@ header .fa-bars{
         font-size: 3rem;
     }
 }
-
-
 
 
 
